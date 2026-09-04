@@ -76,7 +76,7 @@ class KulturTurizm:
 
     def envanter(self) -> None:
         t = self.tup
-        print(—— if False else "— MEVCUT ESER —")
+        print("— MEVCUT ESER —")
         print(f"  Marka / tescil : {t.marka}")
         print(f"  Müdürlük      : {t.mudurluk}")
         print(f"  Sıkma noktası  : {t.sikma_noktasi}")
@@ -113,7 +113,7 @@ class KulturTurizm:
         print()
 
     def kurul_karari(self) -> None:
-        print(—— if False else "— KÜLTÜR VARLIKLARI KURULU KARARI —")
+        print("— KÜLTÜR VARLIKLARI KURULU KARARI —")
         print(random.choice(KARARLAR))
         print()
 
